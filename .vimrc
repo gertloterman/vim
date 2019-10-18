@@ -16,21 +16,14 @@ Plugin 'vim-scripts/indentpython.vim'
 call vundle#end()            
 filetype plugin indent on   
 
-" Turn on rule numbers 
+" Turn on numbered rules and syntax highlighting 
 set nu
-
-" Turn on syntax highlighting
 syntax on
 
-" Turn on encoding in UTF-8
-set encoding=utf-8
-
-" Setup indentation  
+" Setup indentation conform PEP 8 for Python
 set tabstop=2 
 set softtabstop=2 
 set shiftwidth=2 
-
-" Setup indentation conform PEP 8 for Python 
 au BufNewFile, BufRead *.py
   \ set tabstop=4 
   \ set softtabstop=4 
@@ -40,8 +33,9 @@ au BufNewFile, BufRead *.py
   \ set autoindent 
 	\ set fileformat=unix
 
-" Turn on NERDTree
+" Turn on NERDTree or toggle via ctrl + n
 au vimenter * NERDTree
+nmap <C-n> :NERDTreeToggle<CR>
 
 " Setup Syntastic
 set statusline+=%#warningmsg#
