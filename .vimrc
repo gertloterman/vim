@@ -1,6 +1,7 @@
 " ------------
 " SETUP VUNDLE
 " ------------
+
 set nocompatible 
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -21,12 +22,14 @@ filetype plugin indent on
 " --------------
 " SETUP NERDTREE
 " --------------
+
 au vimenter * NERDTree
 nmap <C-n> :NERDTreeToggle<CR>
 
 " ---------------
 " SETUP SYNTASTIC
 " ---------------
+
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
@@ -38,6 +41,7 @@ let g:syntastic_check_on_wq = 0
 " ---------
 " SETUP VIM
 " ---------
+
 " Turn on numbered rules 
 set nu
 " Turn on syntax highlighting
