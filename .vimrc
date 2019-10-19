@@ -14,6 +14,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
 " Git wrapper
 Plugin 'tpope/vim-fugitive'
+" Debugger
+Plugin 'joonty/vdebug'
 " Python Autocompletion engine
 Plugin 'davidhalter/jedi-vim'
 " Python syntax checker

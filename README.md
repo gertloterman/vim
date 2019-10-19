@@ -5,13 +5,14 @@
 - File browser
 - Status line
 - Git wrapper
+- Debugger
 - Python autocompletion engine
 - Python syntax checker
-- Vim key binding
+- Vim key binder
 
 ## Installation
 
-1. Clone the Git repository 
+1. Clone the Git repository
 
 ```
 git clone git@github.com:gertloterman/vim.git
@@ -23,7 +24,7 @@ git clone git@github.com:gertloterman/vim.git
 ./install.sh
 ```
 
-3. Open Vim and run the Vundle plugin manager
+3. Open Vim and run the Vundle plugin installer
 
 ```
 :PluginInstall
