@@ -1,6 +1,6 @@
-" -------------
-" SETUP VI MODE
-" -------------
+# --
+# VI
+# --
 
 set editing-mode vi
 set keymap vi

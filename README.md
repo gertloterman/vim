@@ -1,11 +1,13 @@
-# Vim Configuration
+# Gert's Vim Environment
 
 ## Features
 
 - File browser
-- Syntax checker
-- PEP 8 checker
-- Bash VI emulator
+- Status line
+- Git wrapper
+- Python autocompletion engine
+- Python syntax checker
+- Vim key binding
 
 ## Installation
 
@@ -21,7 +23,7 @@ git clone git@github.com:gertloterman/vim.git
 ./install.sh
 ```
 
-3. Open Vim and run Vundle
+3. Open Vim and run the Vundle plugin manager
 
 ```
 :PluginInstall
