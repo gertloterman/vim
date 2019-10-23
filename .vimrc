@@ -16,6 +16,10 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-fugitive'
 " Debugger
 Plugin 'joonty/vdebug'
+" Closing parenthesis/bracket/quote generator
+Plugin 'jiangmiao/auto-pairs'
+" Closing tag generator
+Plugin 'alvan/vim-closetag' 
 " Python autocompletion engine
 Plugin 'davidhalter/jedi-vim'
 " Python syntax checker
@@ -53,14 +57,21 @@ set autoindent
 " Assign ctrl + t to show/hide the file browser
 nmap <C-t> :NERDTreeToggle<CR>
 
+" --------
+" CLOSETAG
+" --------
+
+" Enable closing tag generator
+let g:closetag_filenames = '*'
+
 " ------
 " PYTHON
 " ------
 
-" Setup indentation conform PEP8 for Python
+" Set indentation conform PEP8 for Python files
 au BufNewFile, BufRead *.py
 	\ set tabstop=4
 	\ set softtabstop=4
 	\ set shiftwidth=4
-" Run syntax checker conform PEP8 for Python
+" Run syntax checker conform PEP8 for Python files
 au BufWritePost *.py call Flake8()

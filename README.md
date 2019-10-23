@@ -6,6 +6,8 @@
 - Status line
 - Git wrapper
 - Debugger
+- Closing parenthesis/bracket/quote generator
+- Closing tag generator
 - Python autocompletion engine
 - Python syntax checker
 - Vim key binder
