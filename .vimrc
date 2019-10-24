@@ -41,12 +41,12 @@ set textwidth=79
 set fileformat=unix
 " Insert spaces for tab key
 set expandtab
-" Make a tab 2 spaces wide
-set tabstop=2
-" Make a shift of intendation 2 spaces wide
-set shiftwidth=2
-" Insert/delete 2 spaces for tab/backspace key
-set softtabstop=2
+" Make a tab 4 spaces wide
+set tabstop=4
+" Make a shift of intendation 4 spaces wide
+set shiftwidth=4
+" Insert/delete 4 spaces for tab/backspace key
+set softtabstop=4
 " Apply indentation of previous line
 set autoindent
 
@@ -76,13 +76,3 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 " Don't run syntastic when saving on closing a file
 let g:syntastic_check_on_wq = 0
-
-" ------
-" PYTHON
-" ------
-
-" Set indentation conform PEP8 for Python files
-au BufNewFile, BufRead *.py
-	\ set tabstop=4
-	\ set softtabstop=4
-	\ set shiftwidth=4
