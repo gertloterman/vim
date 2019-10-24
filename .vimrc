@@ -19,11 +19,11 @@ Plugin 'joonty/vdebug'
 " Closing parenthesis/bracket/quote generator
 Plugin 'jiangmiao/auto-pairs'
 " Closing tag generator
-Plugin 'alvan/vim-closetag' 
+Plugin 'alvan/vim-closetag'
+" Syntax checker
+Bundle 'scrooloose/syntastic'
 " Python autocompletion engine
 Plugin 'davidhalter/jedi-vim'
-" Python syntax checker
-Plugin 'nvie/vim-flake8'
 call vundle#end()
 filetype plugin indent on
 
@@ -45,7 +45,7 @@ set expandtab
 set tabstop=2
 " Make a shift of intendation 2 spaces wide
 set shiftwidth=2
-" Insert/delete 2 spaces for tab/backspace key   
+" Insert/delete 2 spaces for tab/backspace key
 set softtabstop=2
 " Apply indentation of previous line
 set autoindent
@@ -61,8 +61,21 @@ nmap <C-t> :NERDTreeToggle<CR>
 " CLOSETAG
 " --------
 
-" Enable closing tag generator
+" Enable closing tag generator for all file types
 let g:closetag_filenames = '*'
+
+" ---------
+" SYNTASTIC
+" ---------
+
+" Automatically update error location list
+let g:syntastic_always_populate_loc_list = 1
+" Automatically open/close error location list when yes/no errors
+let g:syntastic_auto_loc_list = 1
+" Run syntastic when opening a file
+let g:syntastic_check_on_open = 1
+" Don't run syntastic when saving on closing a file
+let g:syntastic_check_on_wq = 0
 
 " ------
 " PYTHON
@@ -73,5 +86,3 @@ au BufNewFile, BufRead *.py
 	\ set tabstop=4
 	\ set softtabstop=4
 	\ set shiftwidth=4
-" Run syntax checker conform PEP8 for Python files
-au BufWritePost *.py call Flake8()

@@ -6,10 +6,10 @@
 - Status line
 - Git wrapper
 - Debugger
-- Closing parenthesis/bracket/quote generator
+- Closing bracket/quote generator
 - Closing tag generator
+- Syntax checker
 - Python autocompletion engine
-- Python syntax checker
 - Vim key binder
 
 ## Installation
