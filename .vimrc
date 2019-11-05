@@ -21,7 +21,7 @@ Plugin 'jiangmiao/auto-pairs'
 " Closing tag generator
 Plugin 'alvan/vim-closetag'
 " Syntax checker
-Bundle 'scrooloose/syntastic'
+Plugin 'scrooloose/syntastic'
 " Python autocompletion engine
 Plugin 'davidhalter/jedi-vim'
 call vundle#end()
