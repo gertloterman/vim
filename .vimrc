@@ -20,8 +20,8 @@ Plugin 'joonty/vdebug'
 Plugin 'jiangmiao/auto-pairs'
 " Closing tag generator
 Plugin 'alvan/vim-closetag'
-" Syntax checker
-Plugin 'scrooloose/syntastic'
+" Python syntax checker
+Plugin 'nvie/vim-flake8'
 " Python autocompletion engine
 Plugin 'davidhalter/jedi-vim'
 call vundle#end()

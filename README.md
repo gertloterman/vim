@@ -8,7 +8,8 @@
 - Debugger
 - Closing bracket/quote generator
 - Closing tag generator
-- Syntax checker
+- Python syntax checker
+- Python autocompletion engine
 - Vim key binder
 
 ## Installation
