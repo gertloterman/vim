@@ -12,10 +12,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 " Status line
 Plugin 'vim-airline/vim-airline'
-" Git wrapper
-Plugin 'tpope/vim-fugitive'
-" Debugger
-Plugin 'joonty/vdebug'
 " Closing parenthesis/bracket/quote generator
 Plugin 'jiangmiao/auto-pairs'
 " Closing tag generator

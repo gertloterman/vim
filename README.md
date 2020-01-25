@@ -4,8 +4,6 @@
 
 - File browser
 - Status line
-- Git wrapper
-- Debugger
 - Closing bracket/quote generator
 - Closing tag generator
 - Python syntax checker
@@ -20,13 +18,19 @@
 git clone git@github.com:gertloterman/vim.git
 ```
 
-2. Run the install script
+2. Modify the install file permissions
+
+```
+chmod +x install.sh
+```
+
+3. Run the install script
 
 ```
 ./install.sh
 ```
 
-3. Open Vim and run the Vundle plugin installer
+4. Open Vim and run the Vundle plugin installer
 
 ```
 :PluginInstall
