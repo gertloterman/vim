@@ -59,16 +59,3 @@ nmap <C-t> :NERDTreeToggle<CR>
 
 " Enable closing tag generator for all file types
 let g:closetag_filenames = '*'
-
-" ---------
-" SYNTASTIC
-" ---------
-
-" Automatically update error location list
-let g:syntastic_always_populate_loc_list = 1
-" Automatically open/close error location list when yes/no errors
-let g:syntastic_auto_loc_list = 1
-" Run syntastic when opening a file
-let g:syntastic_check_on_open = 1
-" Don't run syntastic when saving on closing a file
-let g:syntastic_check_on_wq = 0
