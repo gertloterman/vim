@@ -45,6 +45,12 @@ set shiftwidth=4
 set softtabstop=4
 " Apply indentation of previous line
 set autoindent
+" Set crypthography method for -x files
+set cm=blowfish2
+" Set foldmethod to marker
+set foldmethod=marker
+" Default close all folds
+set foldclose=all
 
 " --------
 " NERDTREE
