@@ -20,6 +20,8 @@ Plugin 'alvan/vim-closetag'
 Plugin 'nvie/vim-flake8'
 " Python autocompletion engine
 Plugin 'davidhalter/jedi-vim'
+" Latex previewer
+Plugin 'xuhdev/vim-latex-live-preview'
 call vundle#end()
 filetype plugin indent on
 
@@ -65,3 +67,11 @@ nmap <C-t> :NERDTreeToggle<CR>
 
 " Enable closing tag generator for all file types
 let g:closetag_filenames = '*'
+
+" -----
+" LATEX
+" -----
+
+" Assign ctrl + l to preview PDF
+nmap <C-l> :LLPStartPreview<CR>
+let g:livepreview_previewer = 'open -a Preview'
