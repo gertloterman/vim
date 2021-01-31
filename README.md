@@ -7,7 +7,6 @@
 - Closing bracket/quote generator
 - Closing tag generator
 - Python syntax checker
-- Python autocompletion engine
 - Vim key binder
 - Latex pdf viewer
 

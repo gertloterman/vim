@@ -18,8 +18,6 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'alvan/vim-closetag'
 " Python syntax checker
 Plugin 'nvie/vim-flake8'
-" Python autocompletion engine
-Plugin 'davidhalter/jedi-vim'
 " Latex previewer
 Plugin 'xuhdev/vim-latex-live-preview'
 call vundle#end()
