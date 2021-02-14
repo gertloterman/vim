@@ -14,10 +14,12 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
 " Git wrapper
 Plugin 'tpope/vim-fugitive'
-" Dark color theme
+" Dark color schema
 Plugin 'joshdick/onedark.vim'
 " General syntax checker 
 Plugin 'scrooloose/syntastic'
+" Comment generator
+Plugin 'tpope/vim-commentary'
 " Closing parenthesis/bracket/quote generator
 Plugin 'jiangmiao/auto-pairs'
 " Closing tag generator
@@ -78,7 +80,7 @@ let g:syntastic_check_on_wq = 0
 " -------
 " ONEDARK
 " -------
- 
+
 colorscheme onedark
 
 " --------

@@ -7,6 +7,7 @@
 - Statusline
 - Git wrapper
 - Color theme
+- Comment generator
 - Closing bracket/quote generator
 - Closing tag generator
 - Latex PDF viewer
