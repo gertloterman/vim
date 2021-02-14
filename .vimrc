@@ -12,6 +12,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 " Status line
 Plugin 'vim-airline/vim-airline'
+" Git wrapper
+Plugin 'tpope/vim-fugitive'
 " Dark color theme
 Plugin 'joshdick/onedark.vim'
 " General syntax checker 
@@ -55,14 +57,19 @@ set autoindent
 " Assign ctrl + t to show/hide the file browser
 nmap <C-t> :NERDTreeToggle<CR>
 
-"  ---------
+" --------
+" FUGITIVE
+" --------
+
+set statusline=%{FugitiveStatusline()}
+
+" ---------
 "  SYNTASTIC
 "  ---------
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1

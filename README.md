@@ -5,6 +5,7 @@
 - File browser
 - Syntax checker
 - Statusline
+- Git wrapper
 - Color theme
 - Closing bracket/quote generator
 - Closing tag generator
