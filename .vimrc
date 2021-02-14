@@ -10,6 +10,10 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 " File browser
 Plugin 'scrooloose/nerdtree'
+" Status line
+Plugin 'vim-airline/vim-airline'
+" Dark color theme
+Plugin 'joshdick/onedark.vim'
 " General syntax checker 
 Plugin 'scrooloose/syntastic'
 " Closing parenthesis/bracket/quote generator
@@ -63,6 +67,12 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+" -------
+" ONEDARK
+" -------
+ 
+colorscheme onedark
 
 " --------
 " CLOSETAG

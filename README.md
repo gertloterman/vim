@@ -4,6 +4,8 @@
 
 - File browser
 - Syntax checker
+- Statusline
+- Color theme
 - Closing bracket/quote generator
 - Closing tag generator
 - Latex PDF viewer
