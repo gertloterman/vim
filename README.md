@@ -1,14 +1,12 @@
 # Gert's Vim Environment
 
-## Features
+## Additional plugins
 
 - File browser
-- Status line
+- Syntax checker
 - Closing bracket/quote generator
 - Closing tag generator
-- Python syntax checker
-- Vim key binder
-- Latex pdf viewer
+- Latex PDF viewer
 
 ## Installation
 

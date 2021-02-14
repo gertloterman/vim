@@ -11,4 +11,3 @@ brew install flake8
 
 # Create Symbolic Links
 ln -s $PWD/.vimrc ~/.vimrc
-ln -s $PWD/.inputrc ~/.inputrc
