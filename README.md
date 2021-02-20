@@ -6,10 +6,12 @@
 - Syntax checker
 - Statusline
 - Git wrapper
+- Git tracker
 - Color theme
 - Comment generator
 - Closing bracket/quote generator
 - Closing tag generator
+- Code formatter
 - Latex PDF viewer
 
 ## Installation

@@ -14,6 +14,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
 " Git wrapper
 Plugin 'tpope/vim-fugitive'
+" Git tracker
+Plugin 'airblade/vim-gitgutter'
 " Dark color schema
 Plugin 'joshdick/onedark.vim'
 " General syntax checker 
@@ -24,6 +26,8 @@ Plugin 'tpope/vim-commentary'
 Plugin 'jiangmiao/auto-pairs'
 " Closing tag generator
 Plugin 'alvan/vim-closetag'
+" Code formatter
+Plugin 'Chiel92/vim-autoformat'
 " Latex previewer
 Plugin 'xuhdev/vim-latex-live-preview'
 call vundle#end()
@@ -89,6 +93,13 @@ colorscheme onedark
 
 " Enable closing tag generator for all file types
 let g:closetag_filenames = '*'
+
+" ----------
+" AUTOFORMAT
+" ----------
+
+" Assign ctrl + f to format code
+nmap <C-f> :Autoformat<CR>
 
 " -----
 " LATEX
