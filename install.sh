@@ -9,5 +9,11 @@ sr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 # Install Flake8 Style Enforcer
 brew install flake8
 
+# Install Tidy HTML/XML Formatter
+brew install tidy-html5
+
+# Install Python Formatter
+brew install autopep8
+
 # Create Symbolic Links
 ln -s $PWD/.vimrc ~/.vimrc
