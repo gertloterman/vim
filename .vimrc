@@ -12,18 +12,10 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 " Status line
 Plugin 'vim-airline/vim-airline'
-" Git wrapper
-Plugin 'tpope/vim-fugitive'
-" Git tracker
-Plugin 'airblade/vim-gitgutter'
 " General syntax checker 
 Plugin 'scrooloose/syntastic'
 " Comment generator
 Plugin 'tpope/vim-commentary'
-" Closing parenthesis/bracket/quote generator
-Plugin 'jiangmiao/auto-pairs'
-" Closing tag generator
-Plugin 'alvan/vim-closetag'
 " Code formatter
 Plugin 'Chiel92/vim-autoformat'
 " Latex previewer
@@ -53,6 +45,8 @@ set shiftwidth=4
 set softtabstop=4
 " Apply indentation of previous line
 set autoindent
+" Activate backspace
+set backspace=indent,eol,start
 
 " --------
 " NERDTREE
@@ -60,12 +54,6 @@ set autoindent
 
 " Assign ctrl + t to show/hide the file browser
 nmap <C-t> :NERDTreeToggle<CR>
-
-" --------
-" FUGITIVE
-" --------
-
-set statusline=%{FugitiveStatusline()}
 
 " ---------
 "  SYNTASTIC
@@ -78,13 +66,6 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-
-" --------
-" CLOSETAG
-" --------
-
-" Enable closing tag generator for all file types
-let g:closetag_filenames = '*'
 
 " ----------
 " AUTOFORMAT
